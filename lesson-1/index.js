@@ -1,2 +1,6 @@
 var input = document.getElementById("text");
-console.log(input.value);
+input.addEventListener("onchange", function (e) {
+    console.log(e.target.value);
+});
+// let a: string;
+// a = "d"
